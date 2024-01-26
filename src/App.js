@@ -12,7 +12,7 @@ import {Recipe} from './pages/Recipe'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/spa'>
         < Header/>
         <main className='container content'>
           <Routes>
